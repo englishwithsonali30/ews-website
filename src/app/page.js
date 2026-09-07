@@ -10,7 +10,7 @@ export default function Home() {
   const [selectedDate, setSelectedDate] = useState('Tomorrow');
   const [selectedTime, setSelectedTime] = useState('06:00 PM');
 
-  const availableDates = ['Today', 'Tomorrow', 'Thursday', 'Friday'];
+  const availableDates = ['Today!', 'Tomorrow', 'Thursday', 'Friday'];
   const availableTimes = ['10:00 AM', '01:00 PM', '04:00 PM', '06:00 PM', '08:00 PM'];
 
   useEffect(() => {
